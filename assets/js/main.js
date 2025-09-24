@@ -4,15 +4,14 @@ const navMenu =  document.getElementById('nav-menu'),
       navClose =  document.getElementById('nav-close'),
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
-
-
-/*===== MENU HIDDEN =====*/
-/* Validate if constant exists */
 if(navToggle){
   navToggle.addEventListener('click',() =>{
     navMenu.classList.add('show-menu')
   })
 }
+
+/*===== MENU HIDDEN =====*/
+/* Validate if constant exists */
 
 /*==================== REMOVE MENU MOBILE ====================*/
 
@@ -43,3 +42,4 @@ if(navToggle){
 
 
 /*==================== DARK LIGHT THEME ====================*/ 
+
