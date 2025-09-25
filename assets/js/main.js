@@ -4,9 +4,9 @@ const navMenu =  document.getElementById('nav-menu'),
       navClose =  document.getElementById('nav-close'),
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
-if(navToggle){
-     navToggle.addEventListener('click', ()=>{
-     navMenu.classList.add('show-menu')
+if (navToggle) {
+  navToggle.addEventListener('click', ()=>{
+  navMenu.classList.add('show-menu')
   })
 }
 
@@ -42,6 +42,7 @@ if(navToggle){
 
 
 /*==================== DARK LIGHT THEME ====================*/ 
+
 
 
 
